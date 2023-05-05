@@ -1,0 +1,21 @@
+@use 'config/reset';
+
+body {
+    background-color: #eee;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 16px 0;
+    background-color: yellow;
+}
+
+.form-container {
+    height: calc(100vh - 70px);
+    display: flex;
+}
