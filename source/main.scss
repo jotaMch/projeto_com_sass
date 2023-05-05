@@ -18,4 +18,21 @@ header {
 .form-container {
     height: calc(100vh - 70px);
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    form {
+        width: 100%;
+        max-width: 480px;
+        margin-top: 40px;
+        input, button {
+            padding: 8px;
+            display: block;
+            width: 100%;
+            margin-bottom: 16px;
+
+            background-color: transparent;
+        }
+    }
 }
